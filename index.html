@@ -1,451 +1,680 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurant</title>
-  <!-- Bootstrap-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-   <!--Custom CSS-->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/mobile.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair" rel="stylesheet">
-  <!--Fonts-->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap" rel="stylesheet">
-  <!--Owl Carousel-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <!-- Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair"
+      rel="stylesheet"
+    />
+    <!--Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <!--Owl Carousel-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+    />
 
- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
- </head>
- <body> 
-   <div>
-    <header>
-  
-        <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
-          <div class="container">
-            <div class="logo">
-              <img src="./img/JT Spice.png" alt="" />
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#care-navbar"
-              aria-controls="care-navbar" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-                <img src="./img/menu.png" alt="">
-              </span>
-            </button>
-            <div class="collapse navbar-collapse" id="care-navbar">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active mx-sm-2">
-                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item mx-sm-2">
-                  <a class="nav-link" href="#about">About Me</a>
-                </li>
-                <li class="nav-item mx-sm-2">
-                  <a class="nav-link" href="#services">Experience</a>
-                </li>
-                <li class="nav-item mx-sm-2">
-                  <a class="nav-link" href="#work">My Work</a>
-                </li>
-                <li class="nav-item mx-sm-2">
-                  <a class="nav-link" href="#contact">Work with me</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h6 class="lead">Hi there, I'm</h6>
-                      <h3 class="display-4">Jaden Tega</h3>
-              <p class="display-2">An award-winning chef with over 12 years experience.<br>
-                Nulla vestibulum a lorem non luctus. Aliquam ut <br>
-                neque est</p>
-                <a class="btn btn-lg btn-outline" href="#about">WORK WITH ME</a>
-            </div>
-                    <div class="col-lg-4">
-                        <img class="avatar" src="./img/Image.png">
-                    </div>
-                </div>
-            </div>
-          </div>
-
-
-    <section class="about">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
         <div class="container">
-         <div class="row">
-             <div class="col-lg-4">
-               <img class="about-image" src="./img/smiley-chef.png">
-             </div>
-             <div class="col-lg-8">
-                 <div class="about-content"  data-aos="flip-up" data-aos-delay="50" data-aos-duration="1500">
-                      <h2 class="about-heading about-head" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">About Me</h2>
-               <p data-aos="fade-down" data-aos-delay="50" data-aos-duration="1500">An award-winning chef with over 12 years experience Morbi porta<br>
-                turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus.<br>
-                 Aliquam ut neque est. Sed tortor neque, rutrum dapibusviverra sit <br>
-                 amet, tristique sed justo. Nulla maximus venenatis ligula quis cursus.<br>
-                  Nullam laoreet luctus urna at mattis. </p> 
-                 </div>
-             
-             </div>
-         </div>
-    
-         <div class="services container-fluid p-md-5">
-          <h2 class="text-center font-weight-bold mb-4 contact-head mx-auto">Services I Offer</h2>
-          
-          <div class="row justify-content-center">
-            <div class="card" style="width: 18rem;" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1500">
-              <div class="card-body">
-                <h5 class="card-title">Regular Personal Chef</h5>
-                <p class="card-text">Morbi porta turpis ac risus tempor mattis. Nulla  vestibulum a lorem non luctus.</p>
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;" data-aos="flip-up" data-aos-delay="50" data-aos-duration="1500">
-              <div class="card-body">
-                <h5 class="card-title">Catering</h5>
-                <p class="card-text">Morbi porta turpis ac risus tempor mattis. Nulla  vestibulum a lorem non luctus.</p>
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1500">
-              <div class="card-body">
-                <h5 class="card-title">Cooking Classes</h5>
-                <p class="card-text">Morbi porta turpis ac risus tempor mattis. Nulla  vestibulum a lorem non luctus.</p>
-              </div>
-            </div>
+          <div class="logo">
+            <img src="./img/JT Spice.png" alt="" />
           </div>
-          <div class="row justify-content-center" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1500">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">New Kitchen Setup</h5>
-                <p class="card-text">Morbi porta turpis ac risus tempor mattis. Nulla  vestibulum a lorem non luctus.</p>
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;" data-aos="flip-down" data-aos-delay="50" data-aos-duration="1500">
-              <div class="card-body">
-                <h5 class="card-title">Specialty Baking</h5>
-                <p class="card-text">Morbi porta turpis ac risus tempor mattis. Nulla  vestibulum a lorem non luctus.</p>
-              </div>
-            </div>
-            <div class="card" style="width: 18rem;" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1500">
-              <div class="card-body">
-                <h5 class="card-title">Meal Planning</h5>
-                <p class="card-text">Morbi porta turpis ac risus tempor mattis. Nulla  vestibulum a lorem non luctus.</p>
-              </div>
-            </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#care-navbar"
+            aria-controls="care-navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <img src="./img/menu.png" alt="" />
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="care-navbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active mx-sm-2">
+                <a class="nav-link" href="#home"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link" href="#services">Experience</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link" href="#work">My Work</a>
+              </li>
+              <li class="nav-item mx-sm-2">
+                <a class="nav-link" href="#contact">Work with me</a>
+              </li>
+            </ul>
           </div>
-          <div class="services-btn"><a class="btn btn-lg btn-outline" href="#contact">WORK WITH ME</a></div>
         </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-12 col-lg-5 order-lg-2 text-center">
+              <img class="avatar" src="./img/Image.png" />
+            </div>
+            <div
+              class="col-12 col-lg-7 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-left"
+            >
+              <h6 class="lead">Hi there, I'm</h6>
+              <h3 class="display-4">Jaden Tega</h3>
+              <p class="display-2">
+                An award-winning chef with over 12 years experience.<br />
+                Nulla vestibulum a lorem non luctus. Aliquam ut <br />
+                neque est
+              </p>
+              <a class="btn btn-lg btn-outline mx-auto mx-lg-0" href="#about"
+                >WORK WITH ME</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="about-image" src="./img/smiley-chef.png" />
+            </div>
+            <div class="col-lg-8">
+              <div
+                class="about-content"
+                data-aos="flip-up"
+                data-aos-delay="50"
+                data-aos-duration="1500"
+              >
+                <h2
+                  class="about-heading about-head"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1500"
+                >
+                  About Me
+                </h2>
+                <p
+                  data-aos="fade-down"
+                  data-aos-delay="50"
+                  data-aos-duration="1500"
+                >
+                  An award-winning chef with over 12 years experience Morbi
+                  porta<br />
+                  turpis ac risus tempor mattis. Nulla vestibulum a lorem non
+                  luctus.<br />
+                  Aliquam ut neque est. Sed tortor neque, rutrum dapibusviverra
+                  sit <br />
+                  amet, tristique sed justo. Nulla maximus venenatis ligula quis
+                  cursus.<br />
+                  Nullam laoreet luctus urna at mattis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="services container-fluid p-md-5">
+            <h2 class="text-center font-weight-bold mb-4 contact-head mx-auto">
+              Services I Offer
+            </h2>
+
+            <div class="row justify-content-center">
+              <div
+                class="card"
+                style="width: 18rem;"
+                data-aos="flip-left"
+                data-aos-delay="50"
+                data-aos-duration="1500"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Regular Personal Chef</h5>
+                  <p class="card-text">
+                    Morbi porta turpis ac risus tempor mattis. Nulla vestibulum
+                    a lorem non luctus.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="width: 18rem;"
+                data-aos="flip-up"
+                data-aos-delay="50"
+                data-aos-duration="1500"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Catering</h5>
+                  <p class="card-text">
+                    Morbi porta turpis ac risus tempor mattis. Nulla vestibulum
+                    a lorem non luctus.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="width: 18rem;"
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="1500"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Cooking Classes</h5>
+                  <p class="card-text">
+                    Morbi porta turpis ac risus tempor mattis. Nulla vestibulum
+                    a lorem non luctus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row justify-content-center"
+              data-aos="flip-left"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">New Kitchen Setup</h5>
+                  <p class="card-text">
+                    Morbi porta turpis ac risus tempor mattis. Nulla vestibulum
+                    a lorem non luctus.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="width: 18rem;"
+                data-aos="flip-down"
+                data-aos-delay="50"
+                data-aos-duration="1500"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Specialty Baking</h5>
+                  <p class="card-text">
+                    Morbi porta turpis ac risus tempor mattis. Nulla vestibulum
+                    a lorem non luctus.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="width: 18rem;"
+                data-aos="flip-right"
+                data-aos-delay="50"
+                data-aos-duration="1500"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Meal Planning</h5>
+                  <p class="card-text">
+                    Morbi porta turpis ac risus tempor mattis. Nulla vestibulum
+                    a lorem non luctus.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="services-btn">
+              <a class="btn btn-lg btn-outline" href="#contact">WORK WITH ME</a>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="experience" id="experience">
         <div class="container">
-            <div class="text-center">
-                <h2 class="pb-2 caption text-center">Experience</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="main-timeline">
-                        <div class="timeline">
-                            <div class="timeline-icon">
-                                <img src="./img/Milestone.svg">
-                            </div>
-                            <div class="timeline-content right" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500">
-                                <h4 class="title">JT Spice, CEO</h4>
-                                <p class="date"><small>2016 - Present</small></p>
-                                <p class="description">
-                                    Morbi porta turpis ac risus tempor mattis. Nulla 
-                  vestibulum a lorem non luctus. Aliquam ut 
-                  neque est. Sed tortor neque, rutrum dapibus 
-                  viverra sit amet, tristique sed justo. Nulla 
-                  maximus venenatis ligula quis cursus. Nullam 
-                  laoreet luctus urna at mattis. </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon">
-                                <img src="./img/Milestone2.svg">
-                            </div>
-                            <div class="timeline-content" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1500">
-                                <h4 class="title">Kentucky Fried Chicken, Chief Cook</h4>
-                                <p class="date"><small>2016 - Present</small></p>
-                                <p class="description">
-                                    Morbi porta turpis ac risus tempor mattis. Nulla 
-                                    vestibulum a lorem non luctus. Aliquam ut 
-                                    neque est. Sed tortor neque, rutrum dapibus 
-                                    viverra sit amet, tristique sed justo. Nulla 
-                                    maximus venenatis ligula quis cursus. Nullam 
-                                    laoreet luctus urna at mattis. </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon">
-                                <img src="./img/Milestone2.svg">
-                            </div>
-                            <div class="timeline-content right" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500">
-                                <h4 class="chill-title">Chillspot, Assistant Chef</h4>
-                                <p class="date"><small>2016 - Present</small></p>
-                                <p class="description">
-                                    Morbi porta turpis ac risus tempor mattis. Nulla 
-                  vestibulum a lorem non luctus. Aliquam ut 
-                  neque est. Sed tortor neque, rutrum dapibus 
-                  viverra sit amet, tristique sed justo. Nulla 
-                  maximus venenatis ligula quis cursus. Nullam 
-                  laoreet luctus urna at mattis. </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon">
-                                <img src="./img/Milestone2.svg">
-                            </div>
-                            <div class="timeline-content" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1500">
-                                <h4 class="dallas-title">Dallas Delight, Chief Cook</h4>
-                                <p class="date"><small>2016 - Present</small></p>
-                                <p class="description">
-                                    Morbi porta turpis ac risus tempor mattis. Nulla 
-                                    vestibulum a lorem non luctus. Aliquam ut 
-                                    neque est. Sed tortor neque, rutrum dapibus 
-                                    viverra sit amet, tristique sed justo. Nulla 
-                                    maximus venenatis ligula quis cursus. Nullam 
-                                    laoreet luctus urna at mattis. </p>
-                            </div>
-                        </div>
-                    </div>
+          <div class="text-center">
+            <h2 class="pb-2 caption text-center">Experience</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="main-timeline">
+                <div class="timeline">
+                  <div class="timeline-icon">
+                    <img src="./img/Milestone.svg" />
+                  </div>
+                  <div
+                    class="timeline-content right"
+                    data-aos="fade-left"
+                    data-aos-delay="50"
+                    data-aos-duration="1500"
+                  >
+                    <h4 class="title">JT Spice, CEO</h4>
+                    <p class="date"><small>2016 - Present</small></p>
+                    <p class="description">
+                      Morbi porta turpis ac risus tempor mattis. Nulla
+                      vestibulum a lorem non luctus. Aliquam ut neque est. Sed
+                      tortor neque, rutrum dapibus viverra sit amet, tristique
+                      sed justo. Nulla maximus venenatis ligula quis cursus.
+                      Nullam laoreet luctus urna at mattis.
+                    </p>
+                  </div>
                 </div>
+                <div class="timeline">
+                  <div class="timeline-icon">
+                    <img src="./img/Milestone2.svg" />
+                  </div>
+                  <div
+                    class="timeline-content"
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1500"
+                  >
+                    <h4 class="title">Kentucky Fried Chicken, Chief Cook</h4>
+                    <p class="date"><small>2016 - Present</small></p>
+                    <p class="description">
+                      Morbi porta turpis ac risus tempor mattis. Nulla
+                      vestibulum a lorem non luctus. Aliquam ut neque est. Sed
+                      tortor neque, rutrum dapibus viverra sit amet, tristique
+                      sed justo. Nulla maximus venenatis ligula quis cursus.
+                      Nullam laoreet luctus urna at mattis.
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-icon">
+                    <img src="./img/Milestone2.svg" />
+                  </div>
+                  <div
+                    class="timeline-content right"
+                    data-aos="fade-left"
+                    data-aos-delay="50"
+                    data-aos-duration="1500"
+                  >
+                    <h4 class="chill-title">Chillspot, Assistant Chef</h4>
+                    <p class="date"><small>2016 - Present</small></p>
+                    <p class="description">
+                      Morbi porta turpis ac risus tempor mattis. Nulla
+                      vestibulum a lorem non luctus. Aliquam ut neque est. Sed
+                      tortor neque, rutrum dapibus viverra sit amet, tristique
+                      sed justo. Nulla maximus venenatis ligula quis cursus.
+                      Nullam laoreet luctus urna at mattis.
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-icon">
+                    <img src="./img/Milestone2.svg" />
+                  </div>
+                  <div
+                    class="timeline-content"
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1500"
+                  >
+                    <h4 class="dallas-title">Dallas Delight, Chief Cook</h4>
+                    <p class="date"><small>2016 - Present</small></p>
+                    <p class="description">
+                      Morbi porta turpis ac risus tempor mattis. Nulla
+                      vestibulum a lorem non luctus. Aliquam ut neque est. Sed
+                      tortor neque, rutrum dapibus viverra sit amet, tristique
+                      sed justo. Nulla maximus venenatis ligula quis cursus.
+                      Nullam laoreet luctus urna at mattis.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
       </section>
 
       <section class="my works" id="works">
-          <div class="container">
-            <h3 class="text-gold text-center" >My Work</h3> 
-             <nav>
+        <div class="container">
+          <h3 class="text-gold text-center">My Work</h3>
+
+          <nav>
             <ul>
-            <li class="active">ALL </li>
-            <li><a href="#"> DESSERT</a></li>
-            <li><a href="#"> APPETIZER</a></li>
-            <li><a href="#"> RESTAURANT</a></li>
-            <li><a href="#"> DINNER</a></li>
-                <li><a href="#"> DRINKS</a></li>
-                <li><a href="#">CONFECTIONARY</a></li>
+              <li class="active">ALL</li>
+              <li><a href="#"> DESSERT</a></li>
+              <li><a href="#"> APPETIZER</a></li>
+              <li><a href="#"> RESTAURANT</a></li>
+              <li><a href="#"> DINNER</a></li>
+              <li><a href="#"> DRINKS</a></li>
+              <li><a href="#">CONFECTIONARY</a></li>
             </ul>
             <select>
-            <option value="" selected="selected">ALL</option>
-            <option>DESSERT</option>
-            <option >APPETIZER</option>
-            <option >RESTAURANT</option>
-            <option >DINNER</option>
-            <option >DRINKS</option>
-            <option >CONFECTIONARY</option>
+              <option value="" selected="selected">ALL</option>
+              <option>DESSERT</option>
+              <option>APPETIZER</option>
+              <option>RESTAURANT</option>
+              <option>DINNER</option>
+              <option>DRINKS</option>
+              <option>CONFECTIONARY</option>
             </select>
-            </nav>
-        <div class="gallery">
-            <figure class="gallery__item gallery__item--1" data-aos="zoom-in-right" data-aos-delay="50" data-aos-duration="1500">
-              <img src="img/Rectangle-8.png" class="gallery__img" alt="Image 1">
+          </nav>
+          <div class="gallery">
+            <figure
+              class="gallery__item gallery__item--1"
+              data-aos="zoom-in-right"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <img
+                src="img/Rectangle-8.png"
+                class="gallery__img"
+                alt="Image 1"
+              />
             </figure>
-            <figure class="gallery__item gallery__item--2" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
-              <img src="img/Rectangle-9.png" class="gallery__img" alt="Image 2">
+            <figure
+              class="gallery__item gallery__item--2"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <img
+                src="img/Rectangle-9.png"
+                class="gallery__img"
+                alt="Image 2"
+              />
             </figure>
-            <figure class="gallery__item gallery__item--3" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
-              <img src="img/Rectangle-10.png" class="gallery__img" alt="Image 3">
+            <figure
+              class="gallery__item gallery__item--3"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <img
+                src="img/Rectangle-10.png"
+                class="gallery__img"
+                alt="Image 3"
+              />
             </figure>
-            <figure class="gallery__item gallery__item--4" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
-              <img src="img/Rectangle-12.png" class="gallery__img" alt="Image 4">
+            <figure
+              class="gallery__item gallery__item--4"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <img
+                src="img/Rectangle-12.png"
+                class="gallery__img"
+                alt="Image 4"
+              />
             </figure>
-            <figure class="gallery__item gallery__item--5" data-aos="zoom-in-left" data-aos-delay="50" data-aos-duration="1500">
-              <img src="img/Rectangle-14.png" class="gallery__img" alt="Image 5">
+            <figure
+              class="gallery__item gallery__item--5"
+              data-aos="zoom-in-left"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <img
+                src="img/Rectangle-14.png"
+                class="gallery__img"
+                alt="Image 5"
+              />
             </figure>
-            <figure class="gallery__item gallery__item--6" data-aos="zoom-in-left" data-aos-delay="50" data-aos-duration="1500">
-              <img src="img/Rectangle-11.png" class="gallery__img" alt="Image 6">
+            <figure
+              class="gallery__item gallery__item--6"
+              data-aos="zoom-in-left"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <img
+                src="img/Rectangle-11.png"
+                class="gallery__img"
+                alt="Image 6"
+              />
             </figure>
-            <figure class="gallery__item gallery__item--7" data-aos="zoom-in-left" data-aos-delay="50" data-aos-duration="1500">
-              <img src="img/Rectangle-13.png" class="gallery__img" alt="Image 7">
+            <figure
+              class="gallery__item gallery__item--7"
+              data-aos="zoom-in-left"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
+              <img
+                src="img/Rectangle-13.png"
+                class="gallery__img"
+                alt="Image 7"
+              />
             </figure>
           </div>
-          </div>
-
-       
+        </div>
       </section>
 
-
-
       <section class="testimonial" id="testimonial">
-  <div class="container">
-    <h2>Testimonials</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="col-sm-offset-1 col-sm-10">
-          <!--<div class="controls">
+        <div class="container">
+          <h2>Testimonials</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="col-sm-offset-1 col-sm-10">
+                <!--<div class="controls">
                <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
             <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
             </div>-->
-          <div id="testimonial-slider" class="owl-carousel">
-            
-           
-            <div class="testimonial">
-              <p class="description">
-                Morbi porta turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus. Aliquam ut 
-                  neque est. Sed tortor neque, rutrum dapibus viverra sit amet, tristique sed justo. Nulla 
-                  maximus venen.”</p>
-  
-              <div class="testimonial-review">
-                <div class="pic">
-                  <img src="./img/dominic.png">
+                <div id="testimonial-slider" class="owl-carousel">
+                  <div class="testimonial">
+                    <p class="description">
+                      Morbi porta turpis ac risus tempor mattis. Nulla
+                      vestibulum a lorem non luctus. Aliquam ut neque est. Sed
+                      tortor neque, rutrum dapibus viverra sit amet, tristique
+                      sed justo. Nulla maximus venen.”
+                    </p>
+
+                    <div class="testimonial-review">
+                      <div class="pic">
+                        <img src="./img/dominic.png" />
+                      </div>
+                      <h4 class="testimonial-title">
+                        Dominic Solanke
+                        <small>CEO, Uber Eats</small>
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div class="testimonial">
+                    <p class="description">
+                      Morbi porta turpis ac risus tempor mattis. Nulla
+                      vestibulum a lorem non luctus. Aliquam ut neque est. Sed
+                      tortor neque, rutrum dapibus viverra sit amet, tristique
+                      sed justo. Nulla maximus venen.”
+                    </p>
+
+                    <div class="testimonial-review">
+                      <div class="pic">
+                        <img src="./img/dominic.png" />
+                      </div>
+                      <h4 class="testimonial-title">
+                        Dominic Solanke
+                        <small>CEO, Uber Eats</small>
+                      </h4>
+                    </div>
+                  </div>
+                  <div class="testimonial">
+                    <p class="description">
+                      Morbi porta turpis ac risus tempor mattis. Nulla
+                      vestibulum a lorem non luctus. Aliquam ut neque est. Sed
+                      tortor neque, rutrum dapibus viverra sit amet, tristique
+                      sed justo. Nulla maximus venen.”
+                    </p>
+
+                    <div class="testimonial-review">
+                      <div class="pic">
+                        <img src="./img/dominic.png" />
+                      </div>
+                      <h4 class="testimonial-title">
+                        Dominic Solanke
+                        <small>CEO, Uber Eats</small>
+                      </h4>
+                    </div>
+                  </div>
                 </div>
-                <h4 class="testimonial-title">
-                                  Dominic Solanke
-                                  <small>CEO, Uber Eats</small>
-                              </h4>
-              </div>
-            </div>
-  
-            <div class="testimonial">
-              <p class="description">
-                Morbi porta turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus. Aliquam ut 
-                  neque est. Sed tortor neque, rutrum dapibus viverra sit amet, tristique sed justo. Nulla 
-                  maximus venen.”</p>
-  
-              <div class="testimonial-review">
-                <div class="pic">
-                 <img src="./img/dominic.png">
-                </div>
-                <h4 class="testimonial-title">
-                                  Dominic Solanke
-                                  <small>CEO, Uber Eats</small>
-                              </h4>
-              </div>
-            </div>
-            <div class="testimonial">
-              <p class="description">
-                Morbi porta turpis ac risus tempor mattis. Nulla vestibulum a lorem non luctus. Aliquam ut 
-                  neque est. Sed tortor neque, rutrum dapibus viverra sit amet, tristique sed justo. Nulla 
-                  maximus venen.”</p>
-  
-              <div class="testimonial-review">
-                <div class="pic">
-                 <img src="./img/dominic.png">
-                </div>
-                <h4 class="testimonial-title">
-                                 Dominic Solanke
-                                  <small>CEO, Uber Eats</small>
-                              </h4>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       <section class="section" id="contact">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="text-center">
-                        <h2 class="text-gold">Work With Me</h2>
-                    </div>
-                </div>
-            </div> 
-            <div class="row">
-                <div class="col-lg-5">
-                  <div class="project-card8"></div>
-                </div>
-               <div class="col-lg-7">
-                    <div class="form">
-                        <form>
-                            <div class="row">
-                              <p>You'll get a reply in less than two (2) hours.</p>
-                                <div class="col-lg-12">
-                                    <div class="form-group mt-2">FullName
-                                        <input name="name" id="name" type="text" rows="2" class="form-control" placeholder="" required="">
-                                        
-                                    </div>
-                                </div>                          
-                            </div> 
-                             <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group mt-2"> Email
-                                        <input type="email" id="email" rows="2" class="form-control" placeholder="" required="">
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group mt-2"> Message
-                                        <textarea name="comments" id="comments" rows="6" class="form-control" placeholder=""></textarea>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12 text-right">
-                                    <input type="submit" class="btn btn-lg btn-outline" value="SEND MESSAGE">
-                                </div>
-                            </div>
-                        </form>  
-                    </div>
-               </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="text-center">
+                <h2 class="text-gold">Work With Me</h2>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="project-card8"></div>
+            </div>
+            <div class="col-lg-7">
+              <div class="form">
+                <form>
+                  <div class="row">
+                    <p>You'll get a reply in less than two (2) hours.</p>
+                    <div class="col-lg-12">
+                      <div class="form-group mt-2">
+                        FullName
+                        <input
+                          name="name"
+                          id="name"
+                          type="text"
+                          rows="2"
+                          class="form-control"
+                          placeholder=""
+                          required=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group mt-2">
+                        Email
+                        <input
+                          type="email"
+                          id="email"
+                          rows="2"
+                          class="form-control"
+                          placeholder=""
+                          required=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group mt-2">
+                        Message
+                        <textarea
+                          name="comments"
+                          id="comments"
+                          rows="6"
+                          class="form-control"
+                          placeholder=""
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 text-right">
+                      <input
+                        type="submit"
+                        class="btn btn-lg btn-outline"
+                        value="SEND MESSAGE"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>  
+      </section>
 
       <footer class="footer">
         <div class="container">
-            <div class="row justify-content-left text-center">
-                <div class="col-md-12">
-                  <div class="footer-logo">
-                    <img class="footer-img" src="./img/JT Spice.png" alt="" />
-                  </div>
-                  
-                    <div class="text-center text-white footer-alt">
-                      <ul class="list-unstyled social-icons d-flex">
-                        <li class="ion-margin"><a href="#0"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                        <li class="ion-margin"><a href="#0"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                        <li class="ion-margin"><a href="#0"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-                        <li class="ion-margin"><a href="#0"><ion-icon name="logo-github"></ion-icon></a></li>
-                        <li class="ion-margin"><a href="#0"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                      </ul>
-                        <p class="text"> Copyright, JTSpice. 2020</p>
-                    </div>
-                </div>
+          <div class="row justify-content-left text-center">
+            <div class="col-md-12">
+              <div class="footer-logo">
+                <img class="footer-img" src="./img/JT Spice.png" alt="" />
+              </div>
+
+              <div class="text-center text-white footer-alt">
+                <ul class="list-unstyled social-icons d-flex">
+                  <li class="ion-margin">
+                    <a href="#0"><ion-icon name="logo-twitter"></ion-icon></a>
+                  </li>
+                  <li class="ion-margin">
+                    <a href="#0"><ion-icon name="logo-facebook"></ion-icon></a>
+                  </li>
+                  <li class="ion-margin">
+                    <a href="#0"><ion-icon name="logo-linkedin"></ion-icon></a>
+                  </li>
+                  <li class="ion-margin">
+                    <a href="#0"><ion-icon name="logo-github"></ion-icon></a>
+                  </li>
+                  <li class="ion-margin">
+                    <a href="#0"><ion-icon name="logo-instagram"></ion-icon></a>
+                  </li>
+                </ul>
+                <p class="text">Copyright, JTSpice. 2020</p>
+              </div>
             </div>
+          </div>
         </div>
-    </footer>
+      </footer>
 
+      <!--Bootstrap JS-->
+      <script src="./js/jquery-3.1.1.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <!--Custom JS-->
+      <script src="./js/main.js"></script>
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+      <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 
-  <!--Bootstrap JS-->
-  <script src="./js/jquery-3.1.1.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <!--Custom JS-->
-  <script src="./js/main.js"></script>
+      <!--Owl Carousel JS-->
+      <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-1.12.0.min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+      ></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
-  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!--Owl Carousel JS-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script>
-  $(document).ready(function(){
-    $(window).on("load", function () {
-    AOS.init();
-    });
-  });
-</script>
-  
-   </div>
-    
-</body>
+      <script>
+        $(document).ready(function () {
+          $(window).on("load", function () {
+            AOS.init();
+          });
+        });
+      </script>
+    </div>
+  </body>
 </html>
