@@ -33,6 +33,27 @@ body {
     background-size: cover;
     height: 100vh;
   }
+  @media only screen and (max-width: 1121px){
+    .lead{
+      margin-left: -10% !important;
+      }
+      .display-4{
+        margin-left: -10% !important;
+        padding-left: 10% !important;
+      }
+      .display-2{
+        margin-left: -10% !important;
+        padding-left: 10% !important;
+      }
+      .avatar{
+          margin-left: -30% !important;
+    
+      }
+      body{
+          overflow-x: hidden !important;
+      }
+  }
+
   @media only screen and (max-width: 991px){
     .avatar{
         width: 435px;
@@ -559,6 +580,7 @@ line-height: 21px;
     color: #fff;
     width: 462px;
     height: 204px;
+    margin-left: -10%;
 }
 .main-timeline .timeline-content.right .description{
     font-size: 21px;
@@ -842,7 +864,16 @@ nav select {
     width: 572px;
     height: 500px !important;
     top: 100px;
-  }.form-control{
+  }
+  @media (max-width: 1199pxpx) {
+    .project-card8{
+        margin-left: -20%;
+      }
+      .form{
+        margin-left: 6% !important;
+      }
+  }
+  .form-control{
     background-color: transparent !important;
     color: #ffffff !important;
     font-family: 'Rubik', sans-serif !important;
