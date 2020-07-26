@@ -41,22 +41,22 @@
   /* .btn-outline {
     margin-left: 40% !important;
   } */
-  /* .jumbotron{
+  /* .jumboton{
         height: fit-content;
       } */
-  .about {
+  /* .about {
     margin-top: -4% !important;
-  }
-  .about img {
+  } */
+  /* .about img {
     margin-left: 25%;
-  }
+  } */
 
   .about-heading {
-    margin-left: 30% !important;
+    /* margin-left: 30% !important; */
     padding-bottom: 2%;
   }
   .about p {
-    text-align: center;
+    /* text-align: center; */
     color: #fff;
   }
   /* .project-card8 {
@@ -135,17 +135,17 @@
     
       } */
   .about img {
-    margin-left: 15% !important;
-    margin-top: 40% !important;
-    height: 376px !important;
+    /* margin-left: 15% !important; */
+    /* margin-top: 40% !important;
+    height: 376px !important; */
   }
   .about-heading {
     color: #ffca47;
     font-size: 36px;
     line-height: 48px;
     font-family: "Playfair Display", serif !important;
-    margin-left: 23% !important;
-    margin-top: -13%;
+    /* margin-left: 23% !important; */
+    /* margin-top: -13%; */
   }
   .project-card8 {
     /* width: 474px; */
@@ -178,7 +178,7 @@
     font-family: "Rubik", sans-serif !important;
   }
   .about {
-    height: 3050px !important;
+    /* height: 3050px !important; */
   }
   /* .services-btn .btn-outline {
     margin-top: 5%;
@@ -229,7 +229,7 @@
     margin-left: 40% !important;
   } */
   .about {
-    margin-top: -8% !important;
+    /* margin-top: -8% !important; */
   }
   /* .form {
     width: 337px !important;
@@ -266,26 +266,26 @@
     margin-left: -35% !important; */
   }
   .about img {
-    width: 312px !important;
+    /* width: 312px !important;
     height: 340px !important;
-    margin-left: -1% !important;
+    margin-left: -1% !important; */
   }
   .about {
-    margin-top: -10% !important;
+    /* margin-top: -10% !important; */
   }
   .about-content {
-    margin-top: -180% !important;
+    /* margin-top: -180% !important; */
   }
   .about-heading {
     font-size: 28px !important;
     line-height: 37px !important;
     text-align: center;
-    margin-left: 32% !important;
+    /* margin-left: 32% !important; */
   }
 }
 @media only screen and (max-width: 1199px) {
   .about {
-    height: 2000px !important;
+    /* height: 2000px !important; */
   }
   /* .services-btn .btn-outline {
     margin-top: 5%;
@@ -294,7 +294,7 @@
 }
 @media only screen and (max-width: 1199px) {
   .about {
-    height: 2650px;
+    /* height: 2650px; */
   }
   /* .services-btn .btn-outline {
     margin-top: 5%;
@@ -303,7 +303,7 @@
 }
 @media only screen and (max-width: 767px) {
   .about {
-    height: 3050px !important;
+    /* height: 3050px !important; */
   }
   /* .services-btn .btn-outline {
     margin-top: 5%;
